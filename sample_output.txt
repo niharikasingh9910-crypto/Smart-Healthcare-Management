@@ -1,0 +1,70 @@
+============================================================
+ HEALTHCARE MANAGEMENT KNOWLEDGE RESOLUTION
+============================================================
+
+Patient Name: Rahul
+Patient Age: 45
+Patient Condition: critical
+Doctor Available: False
+Appointment Status: scheduled
+Medical Test Result: abnormal
+Medicine Stock: low
+Specialist Required: True
+
+Current Healthcare Facts:
+- critical_condition
+- doctor_unavailable
+- abnormal_test_result
+- low_medicine_stock
+- specialist_required
+
+Knowledge Resolution:
+
+Rule Matched:
+IF critical_condition
+THEN emergency_service_required
+Decision: Activate emergency services immediately
+
+Rule Matched:
+IF doctor_unavailable
+THEN alternative_doctor_required
+Decision: Assign another available doctor
+
+Rule Matched:
+IF abnormal_test_result
+THEN further_evaluation_required
+Decision: Recommend further medical evaluation
+
+Rule Matched:
+IF low_medicine_stock
+THEN restocking_required
+Decision: Generate medicine restocking alert
+
+Rule Matched:
+IF specialist_required
+THEN specialist_referral_required
+Decision: Refer patient to the appropriate specialist
+
+============================================================
+DERIVED KNOWLEDGE
+============================================================
+
+- emergency_service_required
+- alternative_doctor_required
+- further_evaluation_required
+- restocking_required
+- specialist_referral_required
+
+============================================================
+HEALTHCARE MANAGEMENT DECISIONS
+============================================================
+
+- Activate emergency services immediately
+- Assign another available doctor
+- Recommend further medical evaluation
+- Generate medicine restocking alert
+- Refer patient to the appropriate specialist
+
+============================================================
+Knowledge resolution completed successfully.
+============================================================
